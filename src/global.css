@@ -15,3 +15,22 @@
     --corPrincipal: #f9ca24;
     --corSecundaria: #111;
 }
+
+.searchInput {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid var(--corPrincipal);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.searchInput:focus {
+    border-color: var(--corSecundaria);
+    outline: none;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
